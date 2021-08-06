@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState,useEffect} from 'react';
 import './style.css';
 import Weathercard from './weathercard';
 
@@ -38,8 +38,10 @@ const Temp = () => {
     };
 
     useEffect(() => {
+
         getWeatherInfo();
     }, [])
+
     return (
         <>
 

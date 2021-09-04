@@ -31,8 +31,8 @@ body {
 
 .widget {
   display: flex;
-  height: 400px;
-  width: 650px;
+  height: 250px;
+  width: 450px;
   flex-wrap: wrap;
   cursor: pointer;
   border-radius: 20px;
